@@ -1,0 +1,12 @@
+{
+  "name": "golf-improvement-app",
+  "private": true,
+  "workspaces": [
+    "app",
+    "api"
+  ],
+  "scripts": {
+    "lint": "npm run lint --workspaces",
+    "test": "npm run test --workspaces"
+  }
+}
